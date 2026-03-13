@@ -5,7 +5,7 @@ A React web app showcasing a budget travel plan for students based in Oslo who w
 
 ![Oslo to Europe Travel Plan](https://img.shields.io/badge/Countries-8-yellow) ![Budget](https://img.shields.io/badge/Budget-~%24950-green) ![Weekends](https://img.shields.io/badge/Weekends-6-blue)
 
-## 🌍 Destinations Covered
+## Destinations Covered
 
 | Weekend | Destination | Est. Cost |
 |---------|-------------|-----------|
@@ -16,7 +16,7 @@ A React web app showcasing a budget travel plan for students based in Oslo who w
 | W5 | Amsterdam 🇳🇱 | ~$170 |
 | W6 | Paris 🇫🇷 | ~$166 |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 16+
@@ -50,7 +50,7 @@ npm run build
    npm run deploy
    ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** — UI framework
 - **Space Mono + Syne** — Typography
@@ -58,7 +58,7 @@ npm run build
 - **CSS-in-JS** — Inline styles with CSS variables
 - No external UI libraries (pure React)
 
-## 📋 Features
+## Features
 
 - ✅ Interactive weekend cards with expandable cost breakdowns
 - ✅ Budget filter (filter trips by cost range)

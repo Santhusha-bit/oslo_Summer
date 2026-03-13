@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Cheapest weekend travel plan from Oslo across Schengen countries",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://santhusha-bit.github.io/oslo_Summer",
   "dependencies": {
     "ajv": "^8.18.0",
     "ajv-keywords": "^5.1.0",
