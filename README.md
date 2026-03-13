@@ -28,10 +28,10 @@ A React web app showcasing a budget travel plan for students based in Oslo who w
 git clone https://github.com/YOUR_USERNAME/oslo-schengen-travel-planner.git
 cd oslo-schengen-travel-planner
 npm install
-npm run dev
+npm start
 ```
 
-App will run at `http://localhost:5173`
+App will run at `http://localhost:3000`
 
 ### Build for Production
 
@@ -40,8 +40,15 @@ npm run build
 ```
 
 ### Deploy to GitHub Pages
-- Push to `main`. The GitHub Actions workflow will build and publish the Vite `dist/` output to GitHub Pages.
-- Ensure your repo has GitHub Pages set to **Source: GitHub Actions**.
+
+1. Update `homepage` in `package.json` to your GitHub Pages URL:
+   ```json
+   "homepage": "https://YOUR_USERNAME.github.io/oslo-schengen-travel-planner"
+   ```
+2. Run:
+   ```bash
+   npm run deploy
+   ```
 
 ## Tech Stack
 
